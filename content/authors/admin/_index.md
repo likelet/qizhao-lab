@@ -1,37 +1,36 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Qi Zhao
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor of Cancer Bioinformatics
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Sun Yat-sen University Cancer Center
+  url: "https://likelet.github.io/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Qi Zhao is an assistant professor of cancer bioinfomatics at the Sun Yat-sen university cancer center. His research interests include cancer genomics, biosoftware development and high performance computing.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Caner Genomics
+- Bioinformatics
+- Genetics
+- High Performance Computing
+- Statistic Modelling
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Bioinformatics
+    institution: Sun Yat-sen University
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: BSc in Bioengineering
+    institution: Shaanxi University of Science & Technology
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -40,13 +39,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:test@example.org'
+  link: 'zhaoqi@sysucc.org.cn'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/qi_likelet
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=j7LCthMAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/gcushen
