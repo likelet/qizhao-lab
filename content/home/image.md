@@ -10,17 +10,17 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 10
 
-title:
-subtitle:
+title:  
+subtitle: 
 
 design:
   columns: "1"
   background:
     image: coders.jpg
-    image_darken: 0
-    image_parallax: false
+    image_darken: 1.0
+    image_parallax: true
     image_position: center
     image_size: cover
     text_color_light: true
@@ -29,3 +29,5 @@ design:
 advanced:
   css_class: fullscreen
 ---
+
+Welcome to **Qizhao Lab** of Sun Yat-Sen University Cancer Center.
