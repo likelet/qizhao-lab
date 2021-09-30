@@ -6,7 +6,7 @@ title: Qi Zhao
 superuser: true
 
 # Role/position
-role: Professor of Cancer Bioinformatics
+role: Associate Professor of Cancer Bioinformatics
 
 # Organizations/Affiliations
 organizations:
@@ -64,9 +64,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Principal Investigator
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Qi Zhao is an assistant professor of cancer bioinfomatics at the Sun Yat-sen university cancer center. His research interests include cancer genomics, biosoftware development and high performance computing.

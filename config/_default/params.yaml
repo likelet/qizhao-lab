@@ -20,8 +20,8 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: zhaoqi@sysucc.org.cn
+phone: ''
 address:
   street: 651 Dong Feng Road East
   city: Guangzhou
@@ -32,10 +32,8 @@ address:
 coordinates:
   latitude: '23.1291'
   longitude: '113.2644'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
+directions: Sun Yat-Sen University Cancer Center
+office_hours: ''
 appointment_url: ''
 contact_links:
 #  - icon: comments
