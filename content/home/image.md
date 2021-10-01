@@ -30,4 +30,4 @@ advanced:
   css_class: fullscreen
 ---
 
-Welcome to **Qizhao Lab** of Sun Yat-Sen University Cancer Center.
+Welcome to the **Qizhao Research Group** at Sun Yat-Sen University Cancer Center.

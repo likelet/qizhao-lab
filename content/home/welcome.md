@@ -7,7 +7,7 @@ widget: hero  # See https://wowchemy.com/docs/page-builder/
 headless: true  # This file represents a page section.
 weight: 20  # Order that this section will appear.
 title: |
-  Qizhao Lab
+  Qizhao Research Group
 hero_media: welcome.jpg
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -19,4 +19,4 @@ design:
 
 <br>
 
-The **Qizhao Lab** is a research group that focuses on Cancer Bioinformatics research and tool development. 
+The **Qizhao Research Group** focuses on Cancer Bioinformatics research and tool development. 
