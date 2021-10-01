@@ -64,7 +64,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigator
+- Supervisor
 ---
 
 Qi Zhao is an assistant professor of cancer bioinfomatics at the Sun Yat-sen university cancer center. His research interests include cancer genomics, biosoftware development and high performance computing.
