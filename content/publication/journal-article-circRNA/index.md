@@ -12,6 +12,12 @@ authors:
 - Hai-Yu Mo
 - Li Chen
 - others
+author_notes:
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
 date: "2019-10-01T00:00:00Z"
 doi: "10.15252/emmm.201810168"
 
@@ -72,8 +78,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

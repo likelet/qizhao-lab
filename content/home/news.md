@@ -4,7 +4,7 @@ widget: pages
 headless: true
 weight: 30
 
-title: Researches
+title: Highlighted Researches
 subtitle:
 
 content:

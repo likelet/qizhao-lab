@@ -8,6 +8,9 @@ authors:
 - Ming-Ming He
 - Ze-Xian Liu
 - Rui-Hua Xu
+author_notes:
+- "contributed equally"
+- "contributed equally"
 date: "2019-08-01T00:00:00Z"
 doi: "10.1001/jamaoncol.2019.2963"
 
@@ -67,9 +70,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

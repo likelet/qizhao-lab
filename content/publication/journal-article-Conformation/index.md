@@ -12,6 +12,9 @@ authors:
 - Peng Lv
 - Tian-Miao Ou
 - others
+author_notes:
+- ""
+- "contributed euqally"
 date: "2016-10-01T00:00:00Z"
 doi: "10.1016/j.chembiol.2016.08.013"
 
@@ -71,9 +74,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

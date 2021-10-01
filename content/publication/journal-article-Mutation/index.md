@@ -12,6 +12,12 @@ authors:
 - Hui-Yan Luo
 - Ming-Ming He
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2016-05-01T00:00:00Z"
 doi: "10.18632/oncotarget.8541"
 
@@ -77,9 +83,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

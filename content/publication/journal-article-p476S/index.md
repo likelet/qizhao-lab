@@ -1,5 +1,5 @@
 ---
-title: p.P476S mutation of RBPJL inhibits the efficacy of anti-PD-1 therapy in oesophageal squamous cell carcinoma by blunting T-cell responses"
+title: "p.P476S mutation of RBPJL inhibits the efficacy of anti-PD-1 therapy in oesophageal squamous cell carcinoma by blunting T-cell responses"
 authors:
 - Lei Miao
 - Xiao-Li Wei
@@ -11,6 +11,10 @@ authors:
 - Jia Liu
 - Feng-Hua Wang
 - Rui-Hua Xu
+author_notes:
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
 date: "2020-09-01T00:00:00Z"
 doi: "10.1002/cti2.1172"
 
@@ -76,9 +80,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

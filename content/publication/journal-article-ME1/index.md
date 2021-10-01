@@ -12,6 +12,13 @@ authors:
 - Hai-Bo Qiu
 - Pei-Shan Hu
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2018-01-01T00:00:00Z"
 doi: "10.1158/0008-5472.CAN-17-3155"
 
@@ -71,9 +78,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

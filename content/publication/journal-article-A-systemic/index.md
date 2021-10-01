@@ -8,6 +8,12 @@ authors:
 - admin
 - Jian Ren
 - Nan Yao
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2015-03-01T00:00:00Z"
 doi: "10.3389/fpls.2015.00186"
 
@@ -68,8 +74,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

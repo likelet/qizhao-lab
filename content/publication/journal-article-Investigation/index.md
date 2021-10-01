@@ -12,6 +12,12 @@ authors:
 - Miao Chen
 - Liren Li
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2020-05-01T00:00:00Z"
 doi: "10.7150/thno.43427"
 
@@ -71,9 +77,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

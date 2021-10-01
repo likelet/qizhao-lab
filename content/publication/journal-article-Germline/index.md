@@ -11,7 +11,20 @@ authors:
 - Gong Chen
 - Jian-Yong Shao
 - Rui-hua Xu
+- admin
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- "corresponding author"
 date: "2020-09-01T00:00:00Z"
 doi: "https://doi.org/10.1002/cac2.12093"
 
@@ -82,8 +95,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

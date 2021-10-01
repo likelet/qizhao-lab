@@ -11,6 +11,12 @@ authors:
 - Sanjun Yin
 - Zhixiang Zuo
 - Jian Ren
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2017-03-01T00:00:00Z"
 doi: "https://doi.org/10.1038/s41598-017-14451-4"
 
@@ -71,8 +77,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

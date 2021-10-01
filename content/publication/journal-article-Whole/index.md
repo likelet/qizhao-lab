@@ -12,6 +12,13 @@ authors:
 - Bo Fu
 - Linyong Sun
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2018-08-01T00:00:00Z"
 doi: "https://doi.org/10.1002/ijc.31825"
 
@@ -72,8 +79,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

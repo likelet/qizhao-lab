@@ -11,7 +11,20 @@ authors:
 - Zi-Ke Qin
 - Zhuo-Wei Liu
 - Bin Wang
+- admin
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2017-02-01T00:00:00Z"
 doi: "10.18632/oncotarget.17935"
 
@@ -72,8 +85,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

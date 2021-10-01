@@ -1,5 +1,5 @@
 ---
-title: "BBCancer: an expression atlas of blood-based biomarkers in the early diagnosis of cancers "
+title: "BBCancer: an expression atlas of blood-based biomarkers in the early diagnosis of cancers"
 authors:
 - Zhixiang Zuo
 - Huanjing Hu
@@ -10,6 +10,14 @@ authors:
 - admin
 - Yubin Xie
 - Jian Ren
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- "corresponding author"
 date: "2020-01-01T00:00:00Z"
 doi: "https://doi.org/10.1093/nar/gkz942"
 
@@ -69,9 +77,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

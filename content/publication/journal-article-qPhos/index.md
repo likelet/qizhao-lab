@@ -12,6 +12,11 @@ authors:
 - Xiaoxing Li
 - Ze-Xian Liu
 - Rui-Hua Xu
+author_notes:
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
 date: "2019-01-01T00:00:00Z"
 doi: "10.1093/nar/gky1052"
 
@@ -72,8 +77,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

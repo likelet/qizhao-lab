@@ -11,6 +11,9 @@ authors:
 - Xiang Li
 - Xiao-Feng Chen
 - Hong Liao
+- Qi-Wu Mi
+- Yong-Hong Lei
+- Qi Zhao
 - others
 date: "2017-02-01T00:00:00Z"
 doi: "10.1007/s00432-016-2292-3"
@@ -72,8 +75,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

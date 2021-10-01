@@ -12,6 +12,15 @@ authors:
 - Cai-Yun He
 - Jia-Huan Lu
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2019-01-01T00:00:00Z"
 doi: "http://dx.doi.org/10.1136/gutjnl-2018-316522"
 
@@ -78,8 +87,3 @@ projects:
 slides:
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

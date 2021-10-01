@@ -12,6 +12,17 @@ authors:
 - Zhan-Hong Chen
 - admin
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2020-01-01T00:00:00Z"
 doi: "10.1016/j.canlet.2019.12.036"
 
@@ -71,9 +82,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

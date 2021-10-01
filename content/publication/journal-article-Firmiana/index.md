@@ -12,6 +12,16 @@ authors:
 - Bingxin Lu
 - admin
 - others
+author_notes:
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- ""
+- "second author"
 date: "2017-05-01T00:00:00Z"
 doi: "https://doi.org/10.1038/nbt.3825"
 
@@ -71,9 +81,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

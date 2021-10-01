@@ -12,6 +12,11 @@ authors:
 - Huaiqiang Ju
 - Han Cheng
 - others
+author_notes:
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
+- "contributed equally"
 date: "2020-07-01T00:00:00Z"
 doi: "10.1016/j.isci.2020.101302"
 
@@ -71,9 +76,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

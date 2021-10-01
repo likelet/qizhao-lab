@@ -10,6 +10,12 @@ authors:
 - Shaohua Yi
 - William Shi
 - Qingli Quan
+- Kang Li
+- Lianghong Zheng
+- Heng Zhang
+- Bennet A. Caughey
+- admin
+- Kang Zhang
 - others
 date: "2017-10-01T00:00:00Z"
 doi: "https://doi.org/10.1038/nmat4997"
@@ -70,9 +76,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
