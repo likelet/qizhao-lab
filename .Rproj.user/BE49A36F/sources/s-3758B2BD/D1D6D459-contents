@@ -1,0 +1,76 @@
+#
+#@param  diff  XXXX 
+#
+
+annotateGenes<-function(diff,orgnism=c("humman","mouse"))
+{
+  #add Entrezid
+  gene<-rownames(diff)
+  my_organism<-9606
+  myorg_DB<-""
+  
+  if(){
+    require(org.Hs.eg.db)
+    myorg_DB<-"org.Hs.eg.db"
+    my_organism<-9606
+  }else if(){
+    require(org.mm.eg.db)
+    myorg_DB<-"org.mm.eg.db"
+    my_organism<-XX
+  }
+
+  ENTREZID <- bitr(gene,fromType = "SYMBOL",toType = "ENTREZID",OrgDb =myorg_DB)
+  
+  diff1<-merge(diff,ENTREZID)
+  
+  #add up_down
+  diff2<-diff1[order(-diff1$logFC),]
+  diff2[which(diff2$logFC > 0), "up_down"] <- "Up"
+  diff2[which(diff2$logFC < 0), "up_down"] <- "Down"
+  
+  #add description
+  #choose the database
+  tb = loadGeneSummary(organism = my_organism)
+  tb=tb[,-1]
+  tb=tb[,-1]
+  tb=tb[,-1]
+  tb=tb[,-2]
+  colnames(tb)[1]<-'ENTREZID'
+  colnames(tb)[2]<-'Description'
+  d<-duplicated(tb$ENTREZID)
+  tb=tb[!d,]
+  diff3<-merge(diff2,tb)
+  #change the order
+  cols<-colnames(diff3)
+  new_cols<-c(cols[2],cols[3],cols[4],cols[5],cols[6],cols[1],cols[7],cols[8])
+  diff4=diff3[,new_cols]
+  
+  #enrichment analysis
+  gene=diff4[,1]
+  eg <- bitr(gene,fromType = "SYMBOL",toType = "GO",OrgDb = myorg_DB)
+  d<-duplicated(eg$SYMBOL)
+  eg=eg[!d,]
+  eg=eg[,-3]
+  diff5<-merge(diff4,eg)
+  eg1 <- bitr(gene,fromType = "SYMBOL",toType = "PATH",OrgDb = myorg_DB)
+  d<-duplicated(eg1$SYMBOL)
+  eg1=eg1[!d,]
+  diff6<-merge(diff5,eg1)
+  
+  #add link
+  data=data.frame(ENTREZID=diff6$ENTREZID,link=rep(NA,length(diff6$SYMBOL)))
+  a="https://www.ncbi.nlm.nih.gov/gene/?term="
+  for (i in 1:(length(diff6$SYMBOL)))
+  {
+    b=diff6$ENTREZID[i]
+    c<-paste(a,b,sep="")
+    data$link[i]=c
+  }
+  diff7<-merge(diff6,data)
+  cols<-colnames(diff7)
+  new_cols<-c(cols[2],cols[3],cols[4],cols[5],cols[6],cols[1],cols[7],cols[8],cols[9],cols[10],cols[11],cols[12])
+  diff7=diff7[,new_cols]
+  diff7<-diff7[order(-diff7$logFC),]
+  return(diff7)
+  
+}

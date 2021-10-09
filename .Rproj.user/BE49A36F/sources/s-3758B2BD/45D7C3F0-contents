@@ -1,0 +1,62 @@
+EGER_COMMENTS<-c(
+  'gene name',
+  'fold change',
+  'log counts per million',
+  'P value',
+  'false discovery rate',
+  'Entrez gene id',
+  'Up-regulated expression and down-regulated expression',
+  'The description of gene',
+  'go term',
+  'biological process,molecular function or cellular component',
+  'kEGG pathway',
+  'genebank link'
+)
+DESEQ_COMMENTS<-c(
+  'gene nameasdasd',
+  'fold change',
+  'log counts per million',
+  'P value',
+  'false discovery rate',
+  'Entrez gene id',
+  'Up-regulated expression and down-regulated expression',
+  'The description of gene',
+  'go term',
+  'biological process,molecular function or cellular component',
+  'kEGG pathway',
+  'genebank link'
+)
+
+addHeadAnnotation<-function(wb,mycomments="")
+{
+  
+  comments<-mycomments
+
+  #apply usage 
+  clist<-lapply(comments, createComment,visible = F)
+  
+  for (i in 1:12) {
+    writeComment(wb,sheet = 1,1,i,clist[[i]])
+  }
+
+  
+  return(wb)
+}
+
+addHeadAnnotation(wb,mycomments=DESEQ_COMMENTS)
+
+
+mynewfunction<-function(wb,package=xxx){
+  
+  myresut<-switch (package,
+    "edger" = addHeadAnnotation(wb,mycomments=EGER_COMMENTS),
+    "deseq" = addHeadAnnotation(wb,mycomments=DESEQ_COMMENTS)
+  )
+  
+  
+  return(myresult)
+}
+
+
+
+
